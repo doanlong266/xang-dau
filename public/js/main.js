@@ -53,3 +53,6 @@ function fetchData() {
         })
         .catch(error => console.error('Error:', error));
 }
+document.getElementById('darkmode-toggle').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});
