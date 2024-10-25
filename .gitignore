@@ -20,3 +20,5 @@ yarn-error.log*
 # Other
 public/*.js.map
 .vercel
+
+.idea/
